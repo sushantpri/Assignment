@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Even Numbers</title>
+</head>
+<body>
+
+<h2>Even Numbers from 1 to 100:</h2>
+<p id="output"></p>
+
+<script>
+    let result = "";
+    for (let i = 2; i <= 100; i++) {
+        if (i % 2 === 0) {
+            result += i + " ";
+        }
+    }
+    document.getElementById("output").innerText = result;
+</script>
+
+</body>
+</html>
